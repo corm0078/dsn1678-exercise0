@@ -66,11 +66,31 @@ blockquote{
 }
 
 .nutrition{
-    padding: 0.5rem;
+    padding-bottom: 7rem;
     background-color: #f7f7f7;
     border-top: 1px solid #d0d0d0;
     border-bottom: 1px solid #d0d0d0;
 }
+
+dt{
+    padding: 0;
+    padding-left: 1rem;
+    float: left;
+    width: 40%; 
+    overflow: hidden;
+}
+
+dd{
+    float: right;
+    width: 40%;
+    overflow: auto;   
+}
+
+.tags{
+    display: none;    
+}
+
+
 
 footer{
     padding: 1rem;
