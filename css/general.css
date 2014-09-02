@@ -2,19 +2,17 @@
 /* CSS Documet */
 
 html{
-    background-color:#f2f2f2;    
-}
-
-hr{
-    color: #554f4f;
+    background-color:#f2f2f2;
+    line-height: 1.4rem;
 }
 
 body{
     font-family: sans-serif;
+    font-size: 0.9rem;
     background-color: #fff;
     border: 1px solid #d0d0d0;
     border-radius: 15px;
-    margin: 5px 5%;
+    margin: 7px 10%;   
 }
 
 img{
@@ -25,20 +23,18 @@ h1{
     color:#a71240;
     padding-left: 1rem;
     font-size: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d0d0d0;
 }
 
 h2{
     color: #a71240;
-    padding: 1rem;
+    margin: 1rem;
     font-size: 1rem;
 }
 
 p{
-    padding: 1rem;
-}
-
-hr{
-    margin: 0;
+    padding: 0.5rem 1rem;
 }
 
 dt{
@@ -46,13 +42,37 @@ dt{
 }
 
 figcaption{
-    background-color: #f7f7f4;
+    background-color: #f7f7f7;
     padding: 1rem;
     max-width: 100%;
     margin: 0;
-    
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    font-size: 0.85rem;   
+}
+
+blockquote{
+    background-color: #f7f7f7;
+    max-width: 100%;
+    margin: 0;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    font-family: serif; 
+}  
+
+.cita{
+   text-align: right;
+   margin-top: -3rem
+}
+
+.nutrition{
+    padding: 0.5rem;
+    background-color: #f7f7f7;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
 }
 
 footer{
-    padding: 1rem;   
+    padding: 1rem;
+    color: #9d9d9d;
 }
