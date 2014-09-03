@@ -90,9 +90,33 @@ dd{
     display: none;    
 }
 
+ul{
+ list-style-type: none; 
+ padding: 1rem;
+}
 
+ul li{
+    background: rgba(167, 18, 64, 0.25); 
+    color: #a71240;
+    border: 1px solid #a71240;
+    border-radius: 3rem;
+    font-size: 1rem;
+    padding: 0.25em 0.5em;
+    display: inline-block;
+    margin-bottom: 0.3rem;
+}
 
 footer{
-    padding: 1rem;
+    padding: 0rem 1rem 1rem;
     color: #9d9d9d;
+    font-size: 0.8rem;
 }
+
+a,
+a:link {
+  color: #a71240;
+  text-decoration: none;
+  border-bottom: 1px solid #a71240;
+  transition: all 200ms linear;
+}
+
